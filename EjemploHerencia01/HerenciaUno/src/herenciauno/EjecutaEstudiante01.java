@@ -55,7 +55,7 @@ public class EjecutaEstudiante01 {
                 + "del estudiante");
         costoCred = entrada.nextDouble();
         
-        entrada.nextLine();
+        entrada.nextLine();//Limpieza de baffer
         
         // se hace uso de los métodos establecer para asignar valores
         // a los datos (atributos) del objeto
