@@ -9,6 +9,8 @@ public class EstudianteDistancia extends Estudiante{
     
     public EstudianteDistancia(String n, String ap, String iden, int e,
             int numAsg, double costoAsg){
+        //Envia datos a la super clase
+        //Tiene un constructor 
         super(n, ap, iden, e);
         numeroAsignaturas = numAsg;
         costoAsignatura = costoAsg;
